@@ -1,15 +1,37 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito);
 $font-family-sans-serif: 'Nunito';
-$body-bg: #3399DD;
-$navbar-default-bg: white;
-$navbar-default-brand-color: #3399DD;
-$btn-primary-bg: #99ccee;
-$jumbotron-bg: white;
+$body-bg: #C63D0F;
+$navbar-default-bg: #FDF3E7;
+$btn-primary-bg: #C63D0F;
+$jumbotron-bg: #FDF3E7;
+$panel-bg: #FDF3E7;
+$panel-heading-bg: #7E8F7C;
+
+.panel-heading
+{
+	background-color: #f9dbb9!important;
+	text-align:left;
+}
+
+.panel-footer
+{
+	background-color: #FDF3E7!important;
+	text-align:left;
+}
+
+.panel-body
+{
+	background-color: #FDF3E7;
+	text-align:left;
+}
+
+.form-horizontal .control-label{
+	text-align:left;
+}
 
 .navbar-brand
 {
 	font-weight: bold;
 }
-
 
 @import 'bootstrap';

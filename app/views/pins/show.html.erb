@@ -1,0 +1,21 @@
+<div  class="panel panel-default">
+	<p id="notice"><%= notice %></p>
+
+	<div  class="panel panel-body center-block">
+		<p>
+
+			<strong>Description:</strong>
+			<%= @pin.description %>
+		 	<br><br>
+		  
+		  	<strong>Imagen:</strong>
+		  	<br>
+		  	<%= image_tag @pin.image.url %>
+		</p>
+
+		<%if @pin.user == current_user %>
+		      <%= link_to 'Edit', edit_pin_path(@pin), class: "btn btn-primary" %>
+		<% end %>
+		<%= link_to 'Back', pins_path, class: "btn btn-primary" %>
+	</div>
+</div>
