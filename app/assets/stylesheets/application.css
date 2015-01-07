@@ -12,24 +12,11 @@
  *
  *= require_tree .
  *= require_self
+ *= require 'masonry/basic'
+ *= require 'masonry/centered'
+ *= require 'masonry/fluid'
+ *= require 'masonry/gutters'
+ *= require 'masonry/infinitescroll'
+ *= require 'masonry/right-to-left'
+ *= require 'masonry/transitions'
  */
- .flash-message {
-  &.error {
-    border: solid 4px #900;
-          background-color: #FF6565;
-        }
-  &.notice {
-    border: solid 4px #26722D;
-          background-color: #A4E7A0;
-        }
-  color: black;
-  z-index: 999;
-  position: fixed;
-  font-weight: bold;
-  width: 96%;
-  margin: 20px;
-        p {
-                font-size: 110%;
-                margin: 15px 0;
-        }
-}
