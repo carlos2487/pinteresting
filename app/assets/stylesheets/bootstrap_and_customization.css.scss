@@ -23,6 +23,7 @@ $panel-heading-bg: #7E8F7C;
 {
 	background-color: #FDF3E7;
 	text-align:left;
+	overflow:auto;
 }
 
 .form-horizontal .control-label{
@@ -34,4 +35,15 @@ $panel-heading-bg: #7E8F7C;
 	font-weight: bold;
 }
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+.glyphicon glyphicon
+{
+
+}
+
+.newPin
+{
+		color: #C63D0F;
+}
